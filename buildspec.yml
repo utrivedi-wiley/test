@@ -14,4 +14,4 @@ phases:
      - aws s3 sync . "s3://ujwaltest-codedeploy" --exclude "*.*" --include "*.zip" --delete
  post_build:
    commands:
-     - echo "post_build step"
+     - echo "post_build stepx"
